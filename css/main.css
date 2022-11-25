@@ -1,0 +1,146 @@
+/* Navbar*/
+
+#navbar {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    background-color: #fff;
+}
+.navbar-brand {
+    color: #ffffff;
+    font-family: "Montserrat", "Segoe UI", Roboto, Arial, sans-serif;
+    font-weight: 700;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+}
+.navbar-brand img {
+    height: 2.8rem;
+}
+.navbar-nav .nav-item .nav-link {
+    font-family: "Montserrat", "Segoe UI", Roboto, Arial, sans-serif;
+    font-size: 0.95rem;
+    color: #000000;
+    letter-spacing: 0.1em;
+    position: absolute;
+    display: flex;
+}
+/*Header*/
+header.header {
+    padding-bottom: 6rem;
+    text-align: center;
+    color: black;
+    background-position: center center;
+    background-size: cover;
+}
+.header-subheading {
+    margin-top: 2px;
+    font-size: 1.8rem;
+    font-style: italic;
+    line-height: 1.5rem;
+    margin-bottom: 25px;
+    font-family: "Roboto Slab", "Segoe UI", Roboto, Arial, sans-serif;
+}
+.header-heading {
+    font-size: 3.25rem;
+    font-weight: 700;
+    line-height: 3.25rem;
+    font-family: "Montserrat", "Segoe UI", Roboto, Arial, sans-serif;
+}
+
+@media (min-width: 540px) {
+    header.header {
+        padding-bottom: 10rem;
+        margin-top: 2rem;
+    }
+    .header-subheading {
+        font-size: 2.8rem;
+        font-style: italic;
+        line-height: 2.25rem;
+        margin-bottom: 0rem;
+        margin-top: -35em;
+    }
+    .header-heading {
+        font-size: 4.5rem;
+        font-weight: 700;
+        line-height: 4.5rem;
+        margin-bottom: 80rem;
+    }
+}
+
+/* HTML des sections */
+
+.section {
+    padding: 6rem 0;
+    text-align: center;
+}
+.section-heading {
+    font-size: 2.5rem;
+    margin-top: -6em;
+    margin-bottom: 1rem;
+}
+.section-subheading {
+    font-size: 1rem;
+    font-weight: 400;
+    font-style: italic;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 4rem;
+}
+
+.imgs {
+    margin-bottom: 1rem;
+    text-align: center;
+    width: 20rem;
+    height: 15rem;
+}
+
+.imgss {
+    width: 20rem;
+    margin-bottom: 5em;
+}
+
+.imgsss{
+    width: 40rem;
+}
+
+/* Exp */
+
+.exp-text {
+    text-align: center;
+}
+
+.exp-heading {
+    font-size: 1.5rem;
+    font-family: "Montserrat", "Segoe UI", Roboto, Arial, sans-serif;
+    font-weight: 700;
+    margin-bottom: 0;
+    margin-top: 2em;
+}
+.exp-subheading {
+    font-style: italic;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 2em;
+}
+
+/* Parcours */
+
+.parc-text {
+    text-align: center;
+}
+
+.parc-heading {
+    font-size: 1.5rem;
+    font-family: "Montserrat", "Segoe UI", Roboto, Arial, sans-serif;
+    font-weight: 700;
+    margin-bottom: 0;
+}
+.parc-subheading {
+    font-style: italic;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.school {
+    margin-bottom: 3rem;
+    text-align: center;
+}
+.school img {
+    width: 12rem;
+    height: 15rem;
+}
